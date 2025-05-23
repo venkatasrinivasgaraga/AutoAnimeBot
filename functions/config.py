@@ -37,20 +37,20 @@ class Var:
 
     # Channels Ids
 
-    BACKUP_CHANNEL = config("BACKUP_CHANNEL", default=0, cast=int)
-    MAIN_CHANNEL = config("MAIN_CHANNEL", cast=int)
-    LOG_CHANNEL = config("LOG_CHANNEL", cast=int)
-    CLOUD_CHANNEL = config("CLOUD_CHANNEL", cast=int)
+    BACKUP_CHANNEL = config("-1001945054800", default=0, cast=int)
+    MAIN_CHANNEL = config("-1002335038787", cast=int)
+    LOG_CHANNEL = config("-1002674737457", cast=int)
+    CLOUD_CHANNEL = config("-1001945054800", cast=int)
     FORCESUB_CHANNEL = config("FORCESUB_CHANNEL", default=0, cast=int)
-    OWNER = config("OWNER", default=0, cast=int)
+    OWNER = config("1077880102", default=0, cast=int)
 
     # Other Configs
 
     THUMB = config(
-        "THUMBNAIL", default="https://graph.org/file/ad1b25807b81cdf1dff65.jpg"
+        "THUMBNAIL", default="https://envs.sh/s/6mkCjdFJApbEYZX8stsBuA/r4q.jpg"
     )
     FFMPEG = config("FFMPEG", default="ffmpeg")
-    CRF = config("CRF", default="27")
+    CRF = config("CRF", default="25")
     SEND_SCHEDULE = config("SEND_SCHEDULE", default=False, cast=bool)
     RESTART_EVERDAY = config("RESTART_EVERDAY", default=True, cast=bool)
     LOG_ON_MAIN = config("LOG_ON_MAIN", default=False, cast=bool)
